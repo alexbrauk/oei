@@ -6,7 +6,7 @@
 <br>
 api/ <br>
 ├── app/ <br>
-│   └── apiCursos.php	     (nosso código API PHP principal) <br>
+│    └── apiCursos.php	   (nosso código API PHP principal) <br>
 ├── Dockerfile		         (Configuração do container PHP) <br>
 ├── docker-compose.yml     (Orquestração dos serviços) <br>
 <br>
