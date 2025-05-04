@@ -19,7 +19,7 @@ docker-compose up -d --build<br>
 2. Execute os testes:<br>
 http://localhost:8888/apiCursos.php?cursos=[{"criteria":["closest","school-cooperacao"],"editions":[{"date": "2025-06-01","courses":[ {"name": "Especialista em cooperação internacional", "type": "cooperacao"},{"name":"Divulgação e cooperação da ciência","type":"divulgacao-cientifica"}]},{"date":"2025-09-01","courses":[{"name":"Compreendendo o tupari","type":"tupari"}]}]}]
 <br><br>
-onde o parametro "cursos" recebe formato JSON para seleção do curso
+onde o parâmetro "cursos" recebe formato JSON para seleção do curso
 <br><br>
 3. Para parar o serviço:<br>
 docker-compose down<br>
@@ -27,7 +27,7 @@ docker-compose down<br>
 ## Funcionalidades Implementadas:
 <br>
 Recepção de Dados:<br>
-A API recebe a entrada JSON pelo parametro "cursos".<br>
+A API recebe a entrada JSON pelo parâmetro "cursos".<br>
 <br>
 Critérios de Seleção:<br>
 - closest: Ordena as edições pela data e seleciona a mais próxima à data atual.<br>
