@@ -43,4 +43,7 @@ A API retorna um JSON com as edições e os cursos filtrados.<br>
 pela URL:<br>
 http://localhost:8888/apiCursos.php?cursos=[{"criteria":["closest","school-cooperacao"],"editions":[{"date": "2025-06-01","courses":[ {"name": "Especialista em cooperação internacional", "type": "cooperacao"},{"name":"Divulgação e cooperação da ciência","type":"divulgacao-cientifica"}]},{"date":"2025-09-01","courses":[{"name":"Compreendendo o tupari","type":"tupari"}]}]}]
 <br><br>
+Evidência de teste:<br>
+![image](https://github.com/user-attachments/assets/d3a1962c-9fe5-4cbe-8497-8508e37af997)
+<br><br>
 Esta solução está pronta para ser implantada e passa em todos os casos de teste fornecidos.
